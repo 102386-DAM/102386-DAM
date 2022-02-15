@@ -1,0 +1,56 @@
+# Site settings
+course_name: Aplicacions per a dispositius mòbils
+course_description: "In this course, you'll' learn the basics of building Android apps with the JAVA programming language. During the journey, students will discuss and understand JAVA design patterns. Furthermore, you'll develop Backend solutions using Python and interact with relational databases. Finally, the students are introduced to docker deployments and dev-ops. This course will encourage students to face a real scenario, which aims to consolidate an innovative startup based on an application for mobile devices and develop skills related to organization, communication, and human relations to coordinate the team and learn to sell the ideas"
+course_semester: "2on Semestre 2022"
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://102386-DAM.github.io/" # the base hostname & protocol for your site
+
+schoolname: "Escola Politècnica Superior (Universitat de Lleida)"
+schoolurl: "https://udl.cat"
+
+github_username: JordiMateoUdL 
+google_scholar_id: t-vbHCoAAAAJ 
+orcid_id: 0000-0002-1660-0380 
+twitter_username: MatForJordi 
+
+address: |
+    Escola Politècnica Superior (Universitat de Lleida)
+    Campus Universitari Igualada-UdL / Pla de la Massa
+    Av. Pla de la Massa, 8 - Igualada
+
+# Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
+# google_analytics: UA-XXXXXXXX-X
+
+### Do not change the followings unless you know what you are doing ###
+
+# Build settings
+markdown: kramdown
+
+# Other options
+permalink: blog/:year/:month/:title
+excerpt_separator: "<!--more-->"
+
+include: ['_images', '_css']
+exclude: ['develop']
+
+dateformat: "%m/%d/%Y"
+
+future: true
+collections:
+    events:
+        output: false
+    lectures:
+        output: true
+    assignments:
+        output: false
+    announcements:
+        output: false
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "assignments"
+    values:
+      layout: "assignment"
