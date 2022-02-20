@@ -1,10 +1,21 @@
-# operating-system-course
+# 102386-DAM
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+This repository contains all the material organized and developed for 102386-DAM in the second semester of 2021-2022.
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+Inspired by:
+* the template on [svmiller / course-website](https://github.com/svmiller/course-website).
+* the repository [kazemnejad](https://github.com/kazemnejad/jekyll-course-website-template).
 
-TODO: Delete this and the text above, and describe your gem
+## About
+
+<img align="left" width="100" height="100" src="https://user-images.githubusercontent.com/61190134/76793662-b6b8bd00-67c5-11ea-83b2-efcc9ed462fc.png">
+
+*Instructor*: [Jordi Mateo Fornés](http:jordimateofornes.com)
+
+*Course*: [Grau en Tècniques d'Interacció Digital i de Computació](http://www.grauinteraccioicomputacio.udl.cat/ca/index.html)
+
+*University*: University of Lleida - Campus Igualada - Escola Politècnica Superior
+
 
 
 ## Installation
@@ -12,13 +23,13 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "operating-system-course"
+gem "102386-DAM"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: operating-system-course
+theme: 102386-DAM
 ```
 
 And then execute:
@@ -27,24 +38,11 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install operating-system-course
-
-## Usage
-
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
+    $ gem install 102386-DAM
+## Local deploy
 
 To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `operating-system-course.gemspec` accordingly.
+To experiment with this code, add some sample content and run `bundle exec Jekyll serve` – this directory is set up just like a Jekyll site!
 
 ## License
 
