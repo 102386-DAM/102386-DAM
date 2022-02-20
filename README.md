@@ -19,28 +19,6 @@ Visit the [website](https://102386-dam.github.io/102386-DAM/)
 *University*: University of Lleida - Campus Igualada - Escola Politècnica Superior
 
 
-
-## Installation
-
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "102386-DAM"
-```
-
-And add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-theme: 102386-DAM
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install 102386-DAM
 ## Local deploy
 
 To set up your environment to develop this theme, run `bundle install`.
