@@ -3,7 +3,7 @@ course_name: Applications for Mobile Devices
 course_description: "In this course, you'll' learn the basics of building Android apps with the JAVA programming language. During the journey, students will discuss and understand JAVA design patterns. Furthermore, you'll develop Backend solutions using Python and interact with relational databases. Finally, the students are introduced to docker deployments and dev-ops. This course will encourage students to face a real scenario, which aims to consolidate an innovative startup based on an application for mobile devices and develop skills related to organization, communication, and human relations to coordinate the team and learn to sell the ideas."
 course_semester: "2on Semester 2022"
 
-baseurl: "102386-DAM" # the subpath of your site, e.g. /blog/
+baseurl: "/102386-DAM" # the subpath of your site, e.g. /blog/
 url: "http://102386-DAM.github.io/" # the base hostname & protocol for your site
 
 schoolname: "Escola Politècnica Superior (Universitat de Lleida)"
