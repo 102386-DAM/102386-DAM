@@ -1,11 +1,5 @@
 # 102386-DAM
 
-This repository contains all the material organized and developed for 102386-DAM in the second semester of 2021-2022.
-
-Inspired by:
-* the template on [svmiller / course-website](https://github.com/svmiller/course-website).
-* the repository [kazemnejad](https://github.com/kazemnejad/jekyll-course-website-template).
-
 ## About
 
 <img align="left" width="100" height="100" src="https://user-images.githubusercontent.com/61190134/76793662-b6b8bd00-67c5-11ea-83b2-efcc9ed462fc.png">
@@ -17,28 +11,16 @@ Inspired by:
 *University*: University of Lleida - Campus Igualada - Escola Politècnica Superior
 
 
+This repository contains all the material organized and developed for 102386-DAM in the second semester of 2021-2022.
 
-## Installation
+Inspired by:
+* the template on [svmiller / course-website](https://github.com/svmiller/course-website).
+* the repository [kazemnejad](https://github.com/kazemnejad/jekyll-course-website-template).
 
-Add this line to your Jekyll site's `Gemfile`:
+Visit the [website](https://102386-dam.github.io/102386-DAM/)
 
-```ruby
-gem "102386-DAM"
-```
 
-And add this line to your Jekyll site's `_config.yml`:
 
-```yaml
-theme: 102386-DAM
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install 102386-DAM
 ## Local deploy
 
 To set up your environment to develop this theme, run `bundle install`.
