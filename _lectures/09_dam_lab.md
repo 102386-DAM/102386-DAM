@@ -1,5 +1,5 @@
 ---
-type: lab
+type: laboratory
 date: 2022-04-14
 title: Resolució del parcial
 tldr: "Resolució del parcial."
