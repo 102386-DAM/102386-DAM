@@ -1,6 +1,6 @@
 ---
 type: laboratory
-date: 2022-02-11
+date: 2022-02-10
 title: Introduction to Android and Android Studio
 tldr: "Introducció a la programació Android amb Tour per Android Studio"
 thumbnail: /static_files/presentations/dam_vl01.png
